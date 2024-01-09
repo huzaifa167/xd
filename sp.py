@@ -130,10 +130,10 @@ def random_ua():
     build = str(random.randint(9,19))+random.choice(abc)+str(random.randint(50,199))
     fbsv = str(random.randint(4,16))+'_'+str(random.randint(1,9))+'_'+str(random.randint(1,9))
     #-----(change ua1/2/3/4/5/6)------
-    ua1 = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-    ua2 = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    ua1 = 'Mozilla/5.0 (Windows; U; Windows NT 6.1; WOW64; en-US; rv:2.0.4) Gecko/20120718 AskTbAVR-IDW/3.12.5.17700 Firefox/14.0.1'
+    ua2 = "Mozilla/5.0 (Windows NT 5.1; rv:2.0b9pre) Gecko/20110105 Firefox/4.0b9pre"
     dv_typ = random.choice(['SM-S911B','SM-S908B','SM-G998B','SM-G988B','SM-G973B','SM-N986B'])
-    ua3 = f"Mozilla/5.0 (iPhone; CPU iPhone OS 17_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/120.0.6099.119 Mobile/15E148 Safari/604.1"
+    ua3 = f"Mozilla/5.0 (X11; Linux x86_64; rv:2.0b9pre) Gecko/20110111 Firefox/4.0b9pre"
     a = random.randrange(112,115)
     b = random.randrange(1000,10000)
     c = random.randrange(10,100)
@@ -143,7 +143,7 @@ def random_ua():
     dv_ver = random.randrange(100000,250000)
     sd_ver = random.randrange(1,10)
     ch_ver = f'{a}.0.{b}.{c}'
-    ua4 = f'Mozilla/5.0 (iPad; CPU OS 17_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/120.0.6099.119 Mobile/15E148 Safari/604.1'
+    ua4 = f'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:5.0) Gecko/20100101 Firefox/5.0'
     a = random.randrange(112,115)
     b = random.randrange(1000,10000)
     c = random.randrange(10,100)
@@ -153,7 +153,7 @@ def random_ua():
     dv_ver = random.randrange(100000,250000)
     sd_ver = random.randrange(1,10)
     ch_ver = f'{a}.0.{b}.{c}'
-    ua5 = f'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.193 Mobile Safari/537.36'
+    ua5 = f'Mozilla/5.0 (X11; Mageia; Linux x86_64; rv:10.0.9) Gecko/20100101 Firefox/10.0.9'
     a = random.randrange(112,115)
     b = random.randrange(1000,10000)
     c = random.randrange(10,100)
@@ -163,7 +163,7 @@ def random_ua():
     dv_ver = random.randrange(100000,250000)
     sd_ver = random.randrange(1,10)
     ch_ver = f'{a}.0.{b}.{c}'
-    ua6 = f'Mozilla/5.0 (iPod; CPU iPhone OS 17_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/120.0.6099.119 Mobile/15E148 Safari/604.1'
+    ua6 = f'Mozilla/5.0 (Windows; U; Windows NT 5.1; rv:15.0) Gecko/20121011 Firefox/15.0.1'
     ua = random.choice([ua1,ua2,ua3,ua4,ua5,ua6])
     return(ua)
 #-------(create)------
